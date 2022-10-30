@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function LoginPage() {
   return (
     <div>
@@ -29,9 +30,11 @@ export default function LoginPage() {
               <a className="grid place-content-center mt-6" href="0">
                 Forgot Password?
               </a>
-              <button className="btn btn-primary bg-gradient-to-r from-pink-500 to-teal-500 normal-case">
-                Login
-              </button>
+              <Link to="/user">
+                <button className="btn btn-primary border-white bg-base-100 normal-case hover:bg-slate-900 hover:border-white">
+                  Login
+                </button>
+              </Link>
             </div>
           </div>
         </div>

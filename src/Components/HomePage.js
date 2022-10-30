@@ -8,7 +8,7 @@ export default function HomePage() {
         <NavBar />
       </div>
       <div className="grid place-content-around h-screen w-screen grid-cols-2">
-        <h1 className="ml-8 place-self-center pb-10 font-extrabold font-sans text-transparent text-9xl bg-clip-text bg-gradient-to-l from-pink-500 to-teal-500 ">
+        <h1 className="ml-8 place-self-center pb-10 font-extrabold font-sans text-transparent text-9xl bg-clip-text drop-shadow-2xl bg-gradient-to-l from-pink-500 to-teal-500 ">
           Learning,
           <br />
           the true way.

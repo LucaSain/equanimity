@@ -1,5 +1,5 @@
 import logo from "../logo.svg";
-
+import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="navbar bg-base-300">
@@ -37,7 +37,9 @@ export default function NavBar() {
             </ul>
           </li>
           <li>
-            <a>Enroll Now</a>
+            <Link to="login">
+              <a>Enroll Now</a>
+            </Link>
           </li>
         </ul>
       </div>
